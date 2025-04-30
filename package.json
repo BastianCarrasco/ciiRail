@@ -2,9 +2,11 @@
     "name": "ciirail",
     "version": "1.0.0",
     "scripts": {
-        "start": "serve -s . -l 3000"
+      "start": "npx serve ./ -p 3000",
+      "dev": "npx serve ./ -p 3000",
+      "railway": "npx serve ./ -p $PORT"
     },
     "dependencies": {
-        "serve": "^14.2.4"
+      "serve": "^14.2.4"
     }
-}
+  }
