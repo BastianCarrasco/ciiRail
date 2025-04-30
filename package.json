@@ -2,7 +2,7 @@
     "name": "ciirail",
     "version": "1.0.0",
     "scripts": {
-      "start": "npx serve ./ -p 3000",
+      "start": "npm run railway",
       "dev": "npx serve ./ -p 3000",
       "railway": "npx serve ./ -p $PORT"
     },
