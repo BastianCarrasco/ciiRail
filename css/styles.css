@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .carousel,
+  .carousel-item,
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
